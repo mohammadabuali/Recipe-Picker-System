@@ -1,0 +1,133 @@
+body {
+    background-color: rgba(136, 120, 30, 0.137);
+}
+
+.recipes {
+    /* text-align: center; */
+    /*padding-left: 40%;*/
+    /* padding-right:; */
+
+}
+
+.ingredients {
+    border: none;
+    padding: 5px;
+    font: 24px/36px sans-serif;
+    overflow: scroll;
+    height: 200px;
+    width: fit-content;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+border: 1px solid yellowgreen;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: yellowgreen;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #88ba1c;
+}
+
+.meat {
+    text-align: center;
+}
+
+.meatGrid {
+    text-align: center;
+    display: inline-block;
+    width: 15%;
+    height: 400px;
+    margin: 10px;
+}
+
+.spice {
+    text-align: center;
+}
+
+.spiceGrid {
+    text-align: center;
+    display: inline-block;
+    width: 15%;
+    height: 400px;
+    margin: 10px;
+}
+
+.carb {
+    text-align: center;
+}
+
+.carbGrid {
+    text-align: center;
+    display: inline-block;
+    width: 15%;
+    height: 400px;
+    margin: 10px;
+}
+
+.gridItem > img {
+    width: 100%;
+}
+
+ul {
+
+    padding: 0;
+    /* margin-left:40px; */
+    margin-top: 0;
+}
+
+h2 {
+    padding: 5px;
+    font-family: monospace;
+}
+
+p {
+    font-family: cursive;
+    padding: 5px;
+    margin: 0;
+}
+
+img {
+    height:230px;
+
+}
+
+
+.ings {
+    text-align: left;
+
+}
+
+.prb {
+
+    bottom: 100px;
+    width: 250px;
+    text-align: left;
+    margin-bottom: 2px;
+    /* border-radius: 50%; */
+    left: 20px;
+    display: block;
+}
+
+.btnDiv {
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+
+.fnt {
+    font-size: 4.5rem;
+}
+i{
+    margin-left:35px;
+    margin-right:35px;
+}
